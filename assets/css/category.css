@@ -1,7 +1,28 @@
 .box-content {
   height: 317px;
   padding: 20px;
+  margin-top: 200px;
   color: white;
   background: rgb(67, 67, 67);
   background: linear-gradient(137deg, rgba(67, 67, 67, 1) 0%, rgba(106, 106, 106, 1) 100%);
+}
+.box-content:first-child {
+  margin-top: 0;
+}
+.box-content .cards {
+  margin-top: 120px;
+}
+.box-content .cards .card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px #00000040;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(25px);
 }
