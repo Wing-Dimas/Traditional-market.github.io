@@ -1,0 +1,7 @@
+.box-content {
+  height: 317px;
+  padding: 20px;
+  color: white;
+  background: rgb(67, 67, 67);
+  background: linear-gradient(137deg, rgba(67, 67, 67, 1) 0%, rgba(106, 106, 106, 1) 100%);
+}

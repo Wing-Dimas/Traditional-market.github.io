@@ -107,44 +107,6 @@ hr {
   border-radius: 10px;
   min-height: 2000px;
 }
-.section-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 900;
-}
-.content .card-body .rate .star {
-  font-size: 12px;
-  color: yellow;
-  letter-spacing: -5px;
-}
-.content .card-body .rate .number {
-  font-size: 14px;
-  color: #707070;
-}
-.content .card-body .rate .sale {
-  font-size: 12px;
-}
-.content .card-body h2 {
-  font-weight: 700;
-}
-.content .card-body p {
-  font-size: 12px;
-  color: #707070;
-}
-.content .card-body h3 {
-  font-weight: 900;
-  color: #0ea57f;
-}
-.content .card-body h3 .fractions {
-  font-size: 16px;
-}
-.items a {
-  text-decoration: none;
-  color: #000;
-}
-.items a:hover {
-  box-shadow: 3px 0px 5px 0px rgba(169, 169, 169, 1);
-}
 .container.layer {
   margin-top: -50px;
 }
