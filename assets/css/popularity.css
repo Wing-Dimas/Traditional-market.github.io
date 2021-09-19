@@ -1,0 +1,73 @@
+/* detail */
+.top-section .detail {
+  position: relative;
+  padding: 20px;
+  background-color: #17255e;
+  border-radius: 5px;
+  z-index: 1;
+}
+.top-section .detail .deskription h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.top-section .detail .deskription h2 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+.top-section .detail .deskription p.price,
+.top-section .detail .deskription p.comment {
+  color: #ffb802;
+  margin: 10px 0;
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #141a56;
+}
+.top-section .detail .deskription .rate {
+  display: flex;
+  justify-content: space-between;
+}
+.top-section .detail .deskription .rate p {
+  color: #fff;
+}
+.top-section .detail .deskription .rate p.skor {
+  color: #ffb802;
+}
+
+/* Popularity */
+.top-section .popularity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 255px;
+  background-color: hsl(54, 100%, 50%);
+  margin-left: -80px;
+  padding: 10px 20px;
+  padding-left: 90px;
+}
+.top-section .popularity .title {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
+.top-section .popularity .name {
+  font-size: 36px;
+  font-weight: 600;
+  color: #a605f1;
+  text-align: center;
+}
+
+/* reverse */
+.top-section .reverse {
+  flex-direction: row-reverse;
+  margin-right: 55px;
+}
+
+.top-section .reverse .popularity {
+  margin-left: 0px;
+  padding: 10px 20px;
+}
