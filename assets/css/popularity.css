@@ -65,10 +65,11 @@
 .top-section .reverse {
   flex-direction: row-reverse;
   margin-right: 55px;
-  margin-left: -20px;
+  margin-left: -55px;
 }
 
 .top-section .reverse .popularity {
-  margin-left: 0px;
+  margin-right: -40px;
   padding: 10px 20px;
+  padding-right: 50px;
 }
