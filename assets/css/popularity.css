@@ -65,6 +65,7 @@
 .top-section .reverse {
   flex-direction: row-reverse;
   margin-right: 55px;
+  margin-left: -20px;
 }
 
 .top-section .reverse .popularity {
