@@ -1,0 +1,15 @@
+.insight {
+  color: #fff;
+  background-color: #203759;
+  padding: 20px;
+  border-radius: 20px;
+}
+.insight .title {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+.insight .description {
+  margin: 0;
+  font-size: 12px;
+}

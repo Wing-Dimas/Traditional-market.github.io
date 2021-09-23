@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- My Style -->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/category.css" />
+    <link rel="stylesheet" href="assets/css/insight.css" />
     <title>Category</title>
 </head>
 <body>
@@ -255,7 +255,18 @@
             </div>
             <!-- end bubble -->
             <!-- body content -->
-            <div class="container layer"></div>
+            <div class="container layer">
+              <section class="container insight">
+                <h1 class="title">Sale</h1>
+                <p class="description"> Today</p>
+                <div class="graph">
+                  <canvas id="chartSales" width="400" height="150"></canvas>
+                </div>
+                <div class="info">
+                  
+                </div>
+              </section>
+            </div>
             <!-- end body content -->
           </div>
           <!-- end body -->
@@ -272,7 +283,10 @@
     <!-- ionicons -->
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
+    <!-- chart.js -->
+    <script src="assets/js/chart.min.js"></script>
     <!-- My Script -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/insight.js"></script>
 </body>
 </html>
