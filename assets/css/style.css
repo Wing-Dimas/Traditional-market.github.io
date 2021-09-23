@@ -105,7 +105,7 @@ hr {
   padding: 20px;
   background-color: #0ea57f;
   border-radius: 10px;
-  min-height: 2000px;
+  margin-bottom: 50px;
 }
 .container.layer {
   margin-top: -50px;

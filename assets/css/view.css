@@ -1,0 +1,69 @@
+.button {
+  display: flex;
+  width: 60%;
+}
+.button .btn {
+  display: flex;
+  flex-grow: 1;
+  margin: 10px;
+  justify-content: center;
+}
+.button .btn-outline-warning:hover {
+  color: #fff;
+}
+title {
+  font-weight: bold;
+  font-size: 28px;
+}
+.price {
+  font-size: 20px;
+  color: rgb(13, 122, 96);
+}
+h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+}
+.left,
+.right,
+.content p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #203759;
+}
+.review,
+.evaluation {
+  background-color: #203759;
+  padding: 20px;
+  border-radius: 10px;
+}
+.review .people .user {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 20px 5px 0 20px;
+}
+.review .people .user:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.review .people .user:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.review .people .user .username {
+  color: #ffb802;
+}
+.review .people .user ion-icon {
+  color: yellow;
+}
+.review .people .comment {
+  color: #fff;
+}
+
+.evaluation form label {
+  color: #ffb802;
+}
+h4 {
+  color: #ffb802;
+  font-size: 14px;
+  font-weight: normal;
+}

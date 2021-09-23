@@ -51,7 +51,7 @@ function createCard(items) {
   items.forEach((item) => {
     el += ` 
       <div class="col col-4 align-self-start">
-          <a href="#" class="card" style="width: 18rem">
+          <a href="view.html" class="card" style="width: 18rem">
               <img class="card-img-top" src="img/${item.img}" alt="${item.img}" />    
               <div class="card-body pt-0">
               <div class="container">

@@ -66,7 +66,7 @@ function createCard(items, dis) {
             <p class="price">Rp. ${diskon(item.price, dis)}/kg</p>
           </div>
           <div class="right">
-            <a href="#" class="link">
+            <a href="view.html" class="link">
               <ion-icon name="arrow-round-forward"></ion-icon>
             </a>
           </div>
